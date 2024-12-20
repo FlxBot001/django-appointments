@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block cta %}
+<div class="container hero">
+        <div class="row">
+            <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
+                <h1>Exceptional Medical Care for All Ages, brought to you by MediCare.</h1>
+                <p> Here at Medicare, We combine world class medical consultation with a long spa of professional medical care givers, 
+                    with compassionate care. </p>
+                    <a href="{% url 'appointment' %}" class="btn btn-light btn-lg action-button" type="button">Book an appointment</a>
+                    <a href="{% url 'start' %}" class="btn btn-light btn-lg action-button" type="button">Get Started</a>
+            </div>
+
+        </div>
+    </div>
+
+{% endblock cta %}
+
+{% block content %}
+
+
+
+{% endblock content %}
